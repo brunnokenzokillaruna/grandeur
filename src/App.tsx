@@ -5,7 +5,7 @@ import HomePage from './components/HomePage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/grandeur">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/menu" element={<MenuPage />} />
